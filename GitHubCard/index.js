@@ -53,7 +53,7 @@ const followersArray = ['tetondan',
       const newCard = cardMaker(res.data);
     document.querySelector('.cards').appendChild(newCard)
     })
-  })
+  });
 
 /*
   STEP 3: Create a function that accepts a single object as its only argument.
